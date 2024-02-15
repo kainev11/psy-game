@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/psy-game/static/css/main.c9b2746a.css",
+    "main.js": "/psy-game/static/js/main.88ea52c7.js",
+    "index.html": "/psy-game/index.html",
+    "main.c9b2746a.css.map": "/psy-game/static/css/main.c9b2746a.css.map",
+    "main.88ea52c7.js.map": "/psy-game/static/js/main.88ea52c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9b2746a.css",
+    "static/js/main.88ea52c7.js"
+  ]
+}
