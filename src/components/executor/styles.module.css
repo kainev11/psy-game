@@ -1,0 +1,5 @@
+.buttonRow {
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 50px;
+}

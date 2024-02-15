@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { MainPage, loader as mainLoader } from './pages/main';
+import { MainPage } from './pages/main';
 import { Layout } from './components/layout';
 
 const router = createBrowserRouter([
@@ -11,7 +11,6 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <MainPage />,
-        loader: mainLoader,
       },
     ]
   },
