@@ -1,0 +1,126 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.dev-rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.dev-rating-area:not(:checked) > input {
+	display: none;
+}
+.dev-rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.dev-rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.dev-rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.dev-rating-area:not(:checked) > label:hover,
+.dev-rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.dev-rating-area > input:checked + label:hover,
+.dev-rating-area > input:checked + label:hover ~ label,
+.dev-rating-area > input:checked ~ label:hover,
+.dev-rating-area > input:checked ~ label:hover ~ label,
+.dev-rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+.des-rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.des-rating-area:not(:checked) > input {
+	display: none;
+}
+.des-rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.des-rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.des-rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.des-rating-area:not(:checked) > label:hover,
+.des-rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.des-rating-area > input:checked + label:hover,
+.des-rating-area > input:checked + label:hover ~ label,
+.des-rating-area > input:checked ~ label:hover,
+.des-rating-area > input:checked ~ label:hover ~ label,
+.des-rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+.test-rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.test-rating-area:not(:checked) > input {
+	display: none;
+}
+.test-rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.test-rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.test-rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.test-rating-area:not(:checked) > label:hover,
+.test-rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.test-rating-area > input:checked + label:hover,
+.test-rating-area > input:checked + label:hover ~ label,
+.test-rating-area > input:checked ~ label:hover,
+.test-rating-area > input:checked ~ label:hover ~ label,
+.test-rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}

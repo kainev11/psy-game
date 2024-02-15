@@ -1,0 +1,11 @@
+.select {
+    background: white;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+}
