@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/psy-game/static/css/main.c9b2746a.css",
-    "main.js": "/psy-game/static/js/main.88ea52c7.js",
+    "main.css": "/psy-game/static/css/main.769a5078.css",
+    "main.js": "/psy-game/static/js/main.cf2b916d.js",
+    "static/js/453.436dd824.chunk.js": "/psy-game/static/js/453.436dd824.chunk.js",
     "index.html": "/psy-game/index.html",
-    "main.c9b2746a.css.map": "/psy-game/static/css/main.c9b2746a.css.map",
-    "main.88ea52c7.js.map": "/psy-game/static/js/main.88ea52c7.js.map"
+    "main.769a5078.css.map": "/psy-game/static/css/main.769a5078.css.map",
+    "main.cf2b916d.js.map": "/psy-game/static/js/main.cf2b916d.js.map",
+    "453.436dd824.chunk.js.map": "/psy-game/static/js/453.436dd824.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9b2746a.css",
-    "static/js/main.88ea52c7.js"
+    "static/css/main.769a5078.css",
+    "static/js/main.cf2b916d.js"
   ]
 }
