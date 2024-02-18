@@ -23,8 +23,7 @@ export const RateSolve = ({ desStats, devStats, testStats, setMiddle, newEvent, 
             setProductStats(productStats => {
                 return {
                     ...productStats,
-                    balance: productStats.balance + sum * bonus,
-                    popularity: productStats.popularity + (productStats.quality / 10 + productStats.design / 10) * productStats.feature
+                    balance: productStats.balance + sum * bonus
                 }
             });
             setBonus(1);

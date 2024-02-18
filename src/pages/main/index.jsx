@@ -9,9 +9,11 @@ import { RateTeam } from "../../components/rate-team";
 import { ChooseTheme } from "../../components/choose-theme";
 import { Executor } from "../../components/executor";
 import { Card } from "../../components/card";
+import { Rules } from "../../components/rules";
 
 export const MainPage = () => {
     const [currentMem, setCurrentMem] = useState();
+    const [rules, setRules] = useState(false);
 
     const [productStats, setProductStats] = useState({
         quality: 10,
@@ -43,7 +45,7 @@ export const MainPage = () => {
         setProductStats(productStats => {
             return {
                 ...productStats, cycle: productStats.cycle + 1,
-                popularity: productStats.popularity + (productStats.quality / 10 + productStats.design / 10) * productStats.feature
+                popularity: productStats.quality >= 30 && productStats.design >= 30 ? productStats.popularity + productStats.quality / 10 + productStats.design / 10 + productStats.feature * 2 : productStats.popularity >= 10 ? productStats.popularity - 10 : productStats.popularity
             }
         })
         setDesStats(desStats => { return { ...desStats, count: 0 } });
@@ -134,7 +136,8 @@ export const MainPage = () => {
 
 
     const Main = () => <div className={styles.content}>
-        <header className={styles.header}><button onClick={() => setState("start")}>Начать сначала</button><h1 className={styles.theme}>{theme}</h1><button>Правила</button></header>
+        <header className={styles.header}><button onClick={() => setState("start")}>Начать сначала</button><h1 className={styles.theme}>{theme}</h1><button onClick={() => setRules(true)}>Правила</button></header>
+        <Rules rules={rules} setRules={setRules} />
         <div className={styles.main}>
             <div className={styles.event}>{event}</div>
             <div className={styles.middle}>
